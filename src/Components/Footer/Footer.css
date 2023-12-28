@@ -1,0 +1,9 @@
+footer {
+    background:  var(--gradient-primary);
+    padding: 12px 8rem;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}

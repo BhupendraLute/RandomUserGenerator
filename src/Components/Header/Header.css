@@ -1,0 +1,55 @@
+.header {
+  padding: 6px 8rem;
+  width: 100%;
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.logo {
+  border: 2px solid #fff;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+.menu {
+  width: 250px;
+  padding: 6px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.header-btn {
+  background-color: azure;
+  color: blue;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 18px;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 0 15px rgb(169, 169, 224);
+  transition: all 0.1s linear;
+}
+
+.header-btn:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: aqua;
+}

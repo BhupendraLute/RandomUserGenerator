@@ -1,0 +1,69 @@
+.hero {
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero p {
+  font-size: medium;
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  overflow: hidden;
+  border: 4px solid var(--text-blue);
+  border-radius: 12px;
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.profile .photo {
+  width: 180px;
+  height: 180px;
+  padding: 6px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(#ac5885, #65597b, #ac5885);
+}
+
+.profile .photo img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+}
+
+.profile .info {
+  width: 100%;
+  text-align: start;
+  background: white;
+  color: var(--text-blue);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.profile .info .data-field {
+  font-size: 16px;
+}
+
+.load-btn {
+  background: white;
+  color: var(--text-blue);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 24px;
+}
+.load-btn:hover {
+  cursor: pointer;
+  color: white;
+  background: rgb(116, 116, 200);
+}

@@ -1,0 +1,53 @@
+/* ----- This is global css file ----- */
+
+:root {
+  --gradient-primary: linear-gradient(
+    to right,
+    rgb(70, 70, 184),
+    rgb(60, 60, 184),
+    rgb(70, 70, 184),
+    rgb(60, 60, 184),
+    rgb(70, 70, 184)
+  );
+
+  --text-blue: rgb(60, 60, 184);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong {
+  font-weight: 500;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-between {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-gap-1 {
+  gap: 10px;
+}
+
+.flex-gap-2 {
+  gap: 15px;
+}

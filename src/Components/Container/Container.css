@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: calc(90vh - 42px);
+    background: url("../../assets/herobg.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
